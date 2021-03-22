@@ -32,7 +32,7 @@ function randomize() {
 
   while(inputIndex < inputText.length) {
     let i = 0;
-    let randNum = 1 + Math.floor(5 * Math.random());
+    let randNum = 1 + Math.floor(4 * Math.random());
 
     while(inputIndex < inputText.length && i < randNum) {
       if (group % 2 == 0) {
