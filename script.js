@@ -35,10 +35,6 @@ function randomize() {
     let randNum = 1 + Math.floor(4 * Math.random());
 
     while(inputIndex < inputText.length && i < randNum) {
-      if (inputText[i] == " ") {
-        break;
-      }
-      
       if (group % 2 == 0) {
         outputText += inputText[inputIndex].toUpperCase();
       } else {
